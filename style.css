@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  background: rgb(165, 121, 167);
+  color: white;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+header {
+  border: 2px solid rgb(165, 105, 105);
+  border-radius: 20px;
+  background-color: rgb(43, 43, 43);
+  padding: 20px 10px 0 10px;
+}
+
+.info {
+  display: flex
+}
+
+
+.info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 20px rgb(76, 76, 76);
+}
+
+.ab-me {
+  margin-left: 50px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .ab-me {
+    margin: 0;
+  }
+}
+
+
+
+main {
+  border: 2px solid rgb(165, 105, 105);
+  background-color: rgb(43, 43, 43);
+  border-radius: 20px;
+  margin: 10px 0;
+  padding: 10px 10px;
+}
+
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.form-input .form-group {
+  display: inline-block;
+  width: 49%;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  box-sizing: border;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(146, 214, 246);
+  outline: none;
+  padding: 10px 0 5px 0;
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .form-input .form-group {
+    display: block;
+  }
+}
+
+.list{
+  list-style: none;
+  padding: 0 5px;
+  border-left: 3px solid rgb(146, 214, 246);
+}
+
+.list li:first-child {
+  color: red;
+}
+
+.list li:nth-child(2) {
+  color: green;
+}
+
+.list li:last-child {
+  color: orange;
+}
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  color: rgb(45, 45, 45);
+  background-color: rgb(146, 214, 246);
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(45, 45, 45);
+  color: rgb(146, 214, 246);
+  box-shadow: 0 0 10px rgb(146, 214, 246);
+}
+
+footer {
+  border: 2px solid rgb(165, 105, 105);
+  background-color: rgb(43, 43, 43);
+  text-align: center;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+a:active {
+  color: rgb(20, 150, 0);
+}
+
+a:visited {
+  color: rgb(0, 95, 158);
+}
+
